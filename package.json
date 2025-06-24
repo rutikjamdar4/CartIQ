@@ -8,7 +8,7 @@
   "keywords": [],
   "scripts": {
     "start": "parcel index.html",
-    "build": "build": "parcel build index.html --dist-dir dist --public-url ./",
+    "build": "parcel build index.html --dist-dir dist --public-url ./",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
