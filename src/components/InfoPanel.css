@@ -1,0 +1,120 @@
+/* === Info Panel Container === */
+.info-panel {
+  width: 100%;
+  background: rgba(241, 245, 249, 0.9); /* light glassy */
+  border-radius: 16px;
+  padding: 24px;
+  margin: 24px 0;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(6px);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(203, 213, 225, 0.4);
+}
+
+/* Dark Theme */
+.info-panel.dark {
+  background: rgba(30, 41, 59, 0.8);
+  color: #f8fafc;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+/* === Top Row === */
+.info-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Greeting */
+.greeting {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1e3a8a;
+}
+
+/* Dark mode greeting */
+.info-panel.dark .greeting {
+  color: #38bdf8;
+}
+
+/* === Actions === */
+.actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.theme-btn, .notify-btn {
+  background: linear-gradient(to right, #3b82f6, #2563eb);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.theme-btn:hover, .notify-btn:hover {
+  background: linear-gradient(to right, #2563eb, #1d4ed8);
+  transform: translateY(-2px);
+}
+
+/* === Stats Section === */
+.stats {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1.1rem;
+  color: #334155;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #e2e8f0;
+  padding: 10px 14px;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.stat:hover {
+  background: #cbd5e1;
+}
+
+/* Dark Mode Stat Boxes */
+.info-panel.dark .stat {
+  background: #334155;
+  color: #f1f5f9;
+}
+
+.info-panel.dark .stat:hover {
+  background: #475569;
+}
+
+/* === Responsive === */
+@media (max-width: 600px) {
+  .greeting {
+    font-size: 1.4rem;
+  }
+
+  .theme-btn, .notify-btn {
+    font-size: 0.85rem;
+    padding: 8px 12px;
+  }
+
+  .stat {
+    font-size: 1rem;
+  }
+}
+
+/* Body background for dark theme */
+body.dark-theme {
+  background-color: #0f172a;
+}
