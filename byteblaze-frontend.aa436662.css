@@ -343,6 +343,39 @@ button, input {
   }
 }
 
+.scan-error {
+  color: #856404;
+  text-align: center;
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  border-radius: 8px;
+  max-width: 500px;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
+}
+
+.offline-banner {
+  color: #721c24;
+  text-align: center;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 10px 16px;
+}
+
+.scan-error {
+  color: #856404;
+  text-align: center;
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 12px;
+}
+
 .login-page {
   background: linear-gradient(120deg, #f9f1e7, #d7ccc8);
   justify-content: center;
