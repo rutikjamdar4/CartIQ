@@ -578,7 +578,7 @@ body {
     display: none !important;
   }
 
-  .nav-links.open {
+  ul.nav-links.open {
     display: flex !important;
   }
 

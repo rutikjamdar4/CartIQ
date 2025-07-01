@@ -51134,7 +51134,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
-var _navbarCss = require("./navbar.css");
+var _navbarCss = require("./Navbar.css");
 var _s = $RefreshSig$();
 function Navbar() {
     _s();
@@ -51258,7 +51258,7 @@ $RefreshReg$(_c, "Navbar");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router-dom":"61z4w","./navbar.css":"5FuYx","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"5FuYx":[function() {},{}],"eT9bh":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-router-dom":"61z4w","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Navbar.css":"btXQ4"}],"btXQ4":[function() {},{}],"eT9bh":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$1786 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$1786.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -51707,7 +51707,7 @@ parcelHelpers.export(exports, "default", ()=>Scan);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _firebase = require("./firebase");
+var _firebase = require("./Firebase");
 var _firestore = require("firebase/firestore");
 var _s = $RefreshSig$();
 function Scan() {
@@ -51842,31 +51842,7 @@ $RefreshReg$(_c, "Scan");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","firebase/firestore":"3RBs1","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./firebase":"eOwXU"}],"eOwXU":[function(require,module,exports,__globalThis) {
-// src/firebase.js
-// Import the required Firebase functions
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "auth", ()=>auth);
-parcelHelpers.export(exports, "db", ()=>db);
-var _app = require("firebase/app");
-var _auth = require("firebase/auth");
-var _firestore = require("firebase/firestore");
-// Your Firebase project configuration
-const firebaseConfig = {
-    apiKey: "AIzaSyDrqVsR0gcGGudcPHWc7IkfhBm2QhCpFq4",
-    authDomain: "cartiq-9fdf7.firebaseapp.com",
-    projectId: "cartiq-9fdf7",
-    storageBucket: "cartiq-9fdf7.firebasestorage.app",
-    messagingSenderId: "1:192287325137:web:7ef842041c6353bf257ef0",
-    appId: "1:192287325137:web:7ef842041c6353bf257ef0"
-};
-// Initialize Firebase
-const app = (0, _app.initializeApp)(firebaseConfig);
-const auth = (0, _auth.getAuth)(app);
-const db = (0, _firestore.getFirestore)(app);
-
-},{"firebase/app":"cYOm2","firebase/auth":"4ZBbi","firebase/firestore":"3RBs1","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"bM5fD":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","firebase/firestore":"3RBs1","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Firebase":"cNp4U"}],"bM5fD":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$0db6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$0db6.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
